@@ -9,6 +9,10 @@
 .footer {
   border: 1px solid black;
 }
+.footer-rsschool {
+  width: 48px;
+  height: 48px;
+}
 
 body {
   font-family: "Roboto", sans-serif;
