@@ -1,3 +1,16 @@
-p {
-  font-size: 10px;
+.header {
+}
+
+.main {
+}
+
+.footer {
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
 }
