@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html lang="en"></html>
 <html>
   <head>
     <meta charset="utf-8" />
@@ -15,24 +16,48 @@
 
   <body>
     <header class="header">
-      <h1>Anastasiya Kubatina</h1>
-      <p>Web developer</p>
-      <img src="" alt="" />
+      <section class="section" id="profile">
+        <h1>Anastasiya Kubatina</h1>
+        <p>Web developer</p>
+        <img src="" alt="" />
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </header>
 
-    <main class="main">
+    <main class="main main-container">
       <section>
         <h2>Contacts</h2>
         <p>Phone: <a href="tel:+79067142263">+7-906-714-22-63</a></p>
         <p>Telegram: <a href="https://t.me/kybikn">t.me/kybikn</a></p>
         <p>Email: <a href="mailto:kybik.n@mail.ru">kybik.n@mail.ru</a></p>
-        <p>Github: <a href="https://github.com/kybikn">github.com/kybikn</a></p>
+
         <p>Discord: @Kybik#7026</p>
         <p>Location: Russia, Moscow</p>
       </section>
 
       <section>
-        <h2>About Me</h2>
+        <h2>Summary</h2>
         <p>
           I am a beginner Front-End developer. I want to learn and develop new
           skills.
@@ -50,7 +75,7 @@
       </section>
 
       <section>
-        <h2>Code Example</h2>
+        <h2>Code</h2>
         ``` function sum(a, b) { return a + b; } let result = sum(1, 2); alert(
         result ); ```
       </section>
@@ -71,28 +96,34 @@
           <li>Russian - Native</li>
         </ul>
       </section>
-
-      <section>
-        <h1>My CV</h1>
-      </section>
     </main>
 
     <footer class="footer">
       <p>2021</p>
 
-      <!--<img src="D:\Programming\rsschool-cv\img" alt="rs" />
-
-      <link
-        rel="icon"
-        type="image/svg"
-        sizes="16x16"
-        href="D:\Programming\rsschool-cv\img"
-      />-->
-
       <div class="footer-rsschool">
         <a target="_blank" href="https://rs.school/js/"
           ><img src="img/rs_school_js.svg" alt="RSSchool link"
         /></a>
+      </div>
+
+      <div>
+        <a href="https://github.com/kybikn">
+          <svg
+            height="32"
+            aria-hidden="true"
+            viewBox="0 0 16 16"
+            version="1.1"
+            width="32"
+            data-view-component="true"
+            class="octicon octicon-mark-github v-align-middle"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"
+            ></path>
+          </svg>
+        </a>
       </div>
     </footer>
   </body>
