@@ -86,6 +86,15 @@ h2 {
   padding-left: 5%;
 }
 
+.code {
+  background-color: rgba(235, 235, 235, 0.877);
+  margin-right: 70px;
+}
+
+li a {
+  text-decoration: none;
+}
+
 .footer {
   display: flex;
   flex-direction: row;
